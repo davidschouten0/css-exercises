@@ -64,12 +64,14 @@ body {
 .cards {
   display: flex;
   flex-wrap: wrap;
+  gap: 32px;
+  padding: 32px;
 }
 
 .sidebar {
-  flex-basis: 100%;
+  flex: 0 0 300px;
 }
 
 .card {
-  flex-basis: 25%;
+  flex: 1 0 45ch;
 }
