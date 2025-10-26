@@ -68,10 +68,24 @@ body {
   padding: 32px;
 }
 
-.sidebar {
-  flex: 0 0 300px;
+.card {
+  flex: 0 0 45ch;
+  padding: 1rem;
 }
 
-.card {
-  flex: 1 0 45ch;
+.sidebar {
+  flex: 0 0 300px;
+  font-size: 25px;
+  padding: 2rem;
+}
+
+.sidebarlinks {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
